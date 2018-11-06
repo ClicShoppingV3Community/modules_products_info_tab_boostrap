@@ -1,0 +1,28 @@
+{
+  "title":			"modules_products_info_tab_boostrap",
+  "type":           "modules_products_info",
+  "vendor":			"modules_products_info",
+  "is_free":   "Yes",
+  "is_core': no,
+  "website_link_to_sell" : "",
+  "version":			1.0,
+  "req_core_version":	3.0,
+  "license":			"GPL 2 - MIT",
+  "tag":			    "template, products, description, tab",
+  "install":            "sources/template/Default/",
+  "module_directory":   "modules_products_info",
+  "apps_name":          "",
+  "type_module":      "template",
+  "dependance":       "",
+  "description":        "This module allow you to display information accross dynamic tab. It's easy to use with a simple tag to include inside the description",
+    "image":            "ModuleInfosJson/image.png",
+  "authors": [
+    {
+      "name":		    "Julie",
+      "company":	    "",
+      "email":	      "",
+      "website":	    "",
+      "Community":	  "http://www.clicshopping.org"
+    }
+  ]
+}
