@@ -1,4 +1,4 @@
-#modules_products_info_tab_boostrap
+# modules_products_info_tab_boostrap
 
 This module allow you to display information accross dynamic tab. It's easy to use with a simple tag to include inside the description
 
@@ -32,5 +32,6 @@ Implementation:
 
 - Copy the modules_products_info_tab_boostrap.json into ClicShopping/Work/Cache/Github (manual installation)
 
+![image](https://github.com/ClicShoppingCommunityModulesV3/modules_products_info_tab_boostrap/blob/master/ModuleInfosJson/image.png)
 
 
