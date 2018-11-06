@@ -32,6 +32,6 @@ Implementation:
 
 - Copy the modules_products_info_tab_boostrap.json into ClicShopping/Work/Cache/Github (manual installation)
 
-![image](https://github.com/ClicShoppingCommunityModulesV3/modules_products_info_tab_boostrap/blob/master/ModuleInfosJson/image.png)
+![image](https://github.com/ClicShoppingV3Community/modules_products_info_tab_boostrap/blob/master/ModuleInfosJson/image.png)
 
 
