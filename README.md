@@ -32,7 +32,7 @@ Implementation:
 
 - Copy the modules_products_info_tab_boostrap.json into ClicShopping/Work/Cache/Github (manual installation)
 
- All informations about the CliCshopping
+ All informations about the ClicShopping
 
  Community : https://www.clicshopping.org
 
