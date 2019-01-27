@@ -23,7 +23,7 @@ Modules:
 Recommendation and documentation specific use :
 - The module is installed in the Default template.
 - If you have another template, you must copy the files inside your new template.
-- To create a tab use this tags <tabcatalog>My tab</tabcatalog> inside the product description field (ex : <tabcatalog>Description</tabcatalog><br />). You can create any tag as you want.
+- To create a tab use this tags "<"tabcatalog">"My tab"</"tabcatalog>" (without coma) inside the product description field (ex : "<"tabcatalog">"Description"</"tabcatalog">"<br />). You can create any tag as you want.
 
 Implementation:
 
