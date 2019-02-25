@@ -121,7 +121,7 @@
           'configuration_title' => 'Do you want activate this module ?',
           'configuration_key' => 'MODULE_PRODUCTS_INFO_DESCRIPTION_TAB_BOOSTRAP_STATUS',
           'configuration_value' => 'True',
-          'configuration_description' => 'Note : Use this syntax to create your tab description <tabcatalog></tabcatalog>',
+          'configuration_description' => 'Note : Use this syntax to create your tab description without the " : "<" tabcatalog ">" "<" /tabcatalog ">"',
           'configuration_group_id' => '6',
           'sort_order' => '1',
           'set_function' => 'clic_cfg_set_boolean_value(array(\'True\', \'False\'))',
