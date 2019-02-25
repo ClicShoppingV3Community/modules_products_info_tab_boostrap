@@ -81,6 +81,7 @@
           if (strpos($desc, '<tabcatalog>') !== FALSE) {
             $cut = explode('<tabcatalog>', trim($desc));
 
+
             foreach ($cut as $n => $part) {
               if (trim($part) != '') {
                 if (strpos($part, '</tabcatalog>') !== FALSE) {
@@ -98,7 +99,7 @@
 
           $products_description_content .= ob_get_clean();
 
-          $products_description_content .= '<div>';
+          $products_description_content .= '</div>';
           $products_description_content .= '<!-- end products_description_tab -->' . "\n";
 
           $CLICSHOPPING_Template->addBlock($products_description_content, $this->group);
