@@ -35,15 +35,15 @@
     }
 
     public function execute() {
-      if (isset($_GET['products_id']) && isset($_GET['Products']) ) {
+      $CLICSHOPPING_ProductsCommon = Registry::get('ProductsCommon');
+
+      if ($CLICSHOPPING_ProductsCommon->getID() && isset($_GET['Products']) ) {
         $content_width = (int)MODULE_PRODUCTS_INFO_DESCRIPTION_TAB_BOOSTRAP_CONTENT_WIDTH;
 
-        $CLICSHOPPING_ProductsCommon = Registry::get('ProductsCommon');
         $CLICSHOPPING_Template = Registry::get('Template');
 
         $footer_tag = '<script>$(document).ready(function(){$(".tab-pane").first().addClass("active");});</script>';
         $CLICSHOPPING_Template->addBlock($footer_tag, 'footer_scripts');
-
 
         $desc = $CLICSHOPPING_ProductsCommon->getProductsDescription();
 
@@ -95,7 +95,7 @@
           $products_description_content = '<!-- Start products_description_tab -->' . "\n";
 
           ob_start();
-          require($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/products_info_tab_boostrap'));
+          require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/products_info_tab_boostrap'));
 
           $products_description_content .= ob_get_clean();
 
