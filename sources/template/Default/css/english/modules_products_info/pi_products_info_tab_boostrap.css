@@ -8,5 +8,10 @@
  *
  */
 
-div.productsInfoTabBoostrapDescription{}
-div.tabsProductsInfoTabBoostrapDescription{}
+div.productsInfoTabBoostrapDescription {
+    font-weight: bold;
+
+}
+
+div.tabsProductsInfoTabBoostrapDescription {
+}
