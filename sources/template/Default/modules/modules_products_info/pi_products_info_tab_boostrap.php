@@ -37,7 +37,7 @@
     public function execute() {
       $CLICSHOPPING_ProductsCommon = Registry::get('ProductsCommon');
 
-      if ($CLICSHOPPING_ProductsCommon->getID() && isset($_GET['Products']) ) {
+      if ($CLICSHOPPING_ProductsCommon->getID() && isset($_GET['Products'])) {
         $content_width = (int)MODULE_PRODUCTS_INFO_DESCRIPTION_TAB_BOOSTRAP_CONTENT_WIDTH;
 
         $CLICSHOPPING_Template = Registry::get('Template');
