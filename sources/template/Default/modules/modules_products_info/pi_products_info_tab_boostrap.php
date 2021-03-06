@@ -13,8 +13,8 @@
   use ClicShopping\OM\CLICSHOPPING;
 
   class pi_products_info_tab_boostrap {
-    public $code;
-    public $group;
+    public string $code;
+    public string $group;
     public string $title;
     public string $description;
     public ?int $sort_order = 0;
@@ -28,7 +28,7 @@
       $this->title = CLICSHOPPING::getDef('module_products_info_tab_boostap_title');
       $this->description = CLICSHOPPING::getDef('module_products_info_tab_boostap_description');
 
-      if (defined('MODULE_PRODUCTS_INFO_DESCRIPTION_TAB_BOOSTRAP_STATUS')) {
+      if (\defined('MODULE_PRODUCTS_INFO_DESCRIPTION_TAB_BOOSTRAP_STATUS')) {
         $this->sort_order = MODULE_PRODUCTS_INFO_DESCRIPTION_TAB_BOOSTRAP_SORT_ORDER;
         $this->enabled = (MODULE_PRODUCTS_INFO_DESCRIPTION_TAB_BOOSTRAP_STATUS == 'True');
       }
@@ -112,7 +112,7 @@
     }
 
     public function check() {
-      return defined('MODULE_PRODUCTS_INFO_DESCRIPTION_TAB_BOOSTRAP_STATUS');
+      return \defined('MODULE_PRODUCTS_INFO_DESCRIPTION_TAB_BOOSTRAP_STATUS');
     }
 
     public function install() {
