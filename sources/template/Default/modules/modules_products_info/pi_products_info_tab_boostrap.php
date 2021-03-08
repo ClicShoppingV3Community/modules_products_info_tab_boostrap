@@ -64,7 +64,7 @@
                     $class = 'nav-link';
                   }
 
-                  $product_tab_title .= '<li class="nav-item"><a href="#tab' . $c . '" role="tab" data-toggle="tab" class="' . $class . '">' . $t . '</a></li>';
+                  $product_tab_title .= '<li class="nav-item"><a href="#tab' . $c . '" role="tab" data-bs-toggle="tab" class="' . $class . '">' . $t . '</a></li>';
                 }
               }
 
@@ -104,8 +104,8 @@
 
           $CLICSHOPPING_Template->addBlock($products_description_content, $this->group);
 
-      } // $_GET['products_id']
-    } // public function execute
+      }
+    }
 
     public function isEnabled() {
       return $this->enabled;
